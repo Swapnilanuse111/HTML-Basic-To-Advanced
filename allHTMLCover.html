@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HTML Basic to Advanced</title>
+
+    <style>
+
+        body{
+            font-family: Arial;
+            background-color:#f4f4f4;
+            margin:20px;
+        }
+
+        h1{
+            color:red;
+        }
+
+        .box{
+            background:white;
+            padding:20px;
+            margin-bottom:20px;
+            border-radius:10px;
+            box-shadow:0px 0px 10px gray;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+        }
+
+        table,th,td{
+            border:1px solid black;
+            padding:10px;
+        }
+
+        nav a{
+            margin-right:15px;
+        }
+
+        footer{
+            background:black;
+            color:white;
+            text-align:center;
+            padding:15px;
+        }
+
+        button{
+            padding:10px;
+            background:blue;
+            color:white;
+            border:none;
+            cursor:pointer;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="box">
+
+        <h1>HTML Basic to Advanced</h1>
+
+        <p>Created By Swapnil</p>
+
+    </header>
+
+    <!-- NAVIGATION -->
+
+    <nav class="box">
+
+        <a href="#text">Text</a>
+        <a href="#list">Lists</a>
+        <a href="#table">Table</a>
+        <a href="#form">Form</a>
+        <a href="#media">Media</a>
+
+    </nav>
+
+    <!-- TEXT FORMATTING -->
+
+    <section id="text" class="box">
+
+        <h2>Text Formatting</h2>
+
+        <p>This is paragraph</p>
+
+        <b>Bold Text</b><br><br>
+
+        <i>Italic Text</i><br><br>
+
+        <u>Underline Text</u><br><br>
+
+        <mark>Highlighted Text</mark><br><br>
+
+        <strong>Important Text</strong>
+
+    </section>
+
+    <!-- HEADINGS -->
+
+    <section class="box">
+
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+
+    </section>
+
+    <!-- LIST -->
+
+    <section id="list" class="box">
+
+        <h2>Lists</h2>
+
+        <h3>Ordered List</h3>
+
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+
+        <h3>Unordered List</h3>
+
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>Node JS</li>
+        </ul>
+
+    </section>
+
+    <!-- TABLE -->
+
+    <section id="table" class="box">
+
+        <h2>Student Table</h2>
+
+        <table>
+
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+
+            <tr>
+                <td>Swapnil</td>
+                <td>22</td>
+                <td>Pune</td>
+            </tr>
+
+            <tr>
+                <td>Rahul</td>
+                <td>21</td>
+                <td>Mumbai</td>
+            </tr>
+
+        </table>
+
+    </section>
+
+    <!-- IMAGE -->
+
+    <section class="box">
+
+        <h2>Image</h2>
+
+        <img src="https://via.placeholder.com/300"
+        width="300">
+
+    </section>
+
+    <!-- LINK -->
+
+    <section class="box">
+
+        <h2>Link</h2>
+
+        <a href="https://www.google.com" target="_blank">
+            Open Google
+        </a>
+
+    </section>
+
+    <!-- FORM -->
+
+    <section id="form" class="box">
+
+        <h2>Registration Form</h2>
+
+        <form>
+
+            Name:
+            <input type="text" placeholder="Enter Name">
+            <br><br>
+
+            Email:
+            <input type="email" required>
+            <br><br>
+
+            Password:
+            <input type="password">
+            <br><br>
+
+            Age:
+            <input type="number">
+            <br><br>
+
+            DOB:
+            <input type="date">
+            <br><br>
+
+            Gender:
+            <input type="radio" name="gender"> Male
+
+            <input type="radio" name="gender"> Female
+
+            <br><br>
+
+            Skills:
+            <input type="checkbox"> HTML
+            <input type="checkbox"> CSS
+            <input type="checkbox"> JS
+
+            <br><br>
+
+            Upload File:
+            <input type="file">
+
+            <br><br>
+
+            City:
+
+            <select>
+
+                <option>Pune</option>
+                <option>Mumbai</option>
+                <option>Nashik</option>
+
+            </select>
+
+            <br><br>
+
+            Message:
+
+            <textarea rows="5" cols="30"></textarea>
+
+            <br><br>
+
+            <input type="submit">
+
+        </form>
+
+    </section>
+
+    <!-- AUDIO -->
+
+    <section id="media" class="box">
+
+        <h2>Audio</h2>
+
+        <audio controls>
+
+            <source src="song.mp3">
+
+        </audio>
+
+    </section>
+
+    <!-- VIDEO -->
+
+    <section class="box">
+
+        <h2>Video</h2>
+
+        <video width="400" controls>
+
+            <source src="movie.mp4">
+
+        </video>
+
+    </section>
+
+    <!-- IFRAME -->
+
+    <section class="box">
+
+        <h2>Iframe</h2>
+
+        <iframe
+        src="https://www.wikipedia.org"
+        width="500"
+        height="300">
+        </iframe>
+
+    </section>
+
+    <!-- DIV & SPAN -->
+
+    <section class="box">
+
+        <h2>Div and Span</h2>
+
+        <div style="background:yellow;padding:10px;">
+
+            This is DIV tag
+
+        </div>
+
+        <br>
+
+        <span style="color:red;">
+
+            This is SPAN tag
+
+        </span>
+
+    </section>
+
+    <!-- SVG -->
+
+    <section class="box">
+
+        <h2>SVG Circle</h2>
+
+        <svg width="200" height="200">
+
+            <circle
+            cx="100"
+            cy="100"
+            r="80"
+            stroke="black"
+            stroke-width="3"
+            fill="red"/>
+
+        </svg>
+
+    </section>
+
+    <!-- CANVAS -->
+
+    <section class="box">
+
+        <h2>Canvas</h2>
+
+        <canvas id="myCanvas"
+        width="300"
+        height="150"
+        style="border:1px solid black;">
+        </canvas>
+
+    </section>
+
+    <!-- BUTTON + JAVASCRIPT -->
+
+    <section class="box">
+
+        <h2>JavaScript Example</h2>
+
+        <h3 id="demo">Hello</h3>
+
+        <button onclick="changeText()">
+            Click Me
+        </button>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <h2>Thank You</h2>
+
+    </footer>
+
+    <!-- JAVASCRIPT -->
+
+    <script>
+
+        function changeText(){
+
+            document.getElementById("demo").innerHTML =
+            "Welcome Swapnil";
+
+        }
+
+        // Canvas Example
+
+        var c = document.getElementById("myCanvas");
+
+        var ctx = c.getContext("2d");
+
+        ctx.fillStyle = "blue";
+
+        ctx.fillRect(20,20,150,100);
+
+    </script>
+
+</body>
+
+</html>
